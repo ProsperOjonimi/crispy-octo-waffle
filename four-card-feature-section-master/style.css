@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: "Poppins";
+  color: hsl(212, 6%, 44%);
+}
+
+header {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 38px;
+  font-weight: normal;
+  color: hsl(212, 6%, 44%);
+}
+.header-two {
+  font-weight: bold;
+  color: hsl(234, 12%, 34%);
+}
+
+p {
+  font-size: 20px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.container {
+  width: 1500px;
+  height: 700px;
+  margin-left: 250px;
+  margin-right: auto;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 400px 400px 400px;
+  row-gap: 30px;
+}
+.child {
+  width: 300px;
+  height: 200px;
+}
+.supervisor {
+  background-color: hsl(0, 0%, 100%);
+  height: 230px;
+  grid-column: 2/3;
+  grid-row: 1;
+  border-top: 5px solid hsl(0, 78%, 62%);
+  box-shadow: 0 10px 10px hsl(205, 33%, 93%);
+  border-radius: 5px;
+  position: relative;
+}
+.home {
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+}
+
+.team-builder {
+  background-color: hsl(0, 0%, 100%);
+  grid-column: 1/2;
+  grid-row: 1;
+  align-self: end;
+  margin-bottom: 200px;
+  justify-self: end;
+  border-top: 5px solid hsl(180, 62%, 55%);
+  box-shadow: 0 10px 10px hsl(205, 33%, 93%);
+  border-radius: 5px;
+  position: relative;
+}
+.glass {
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+}
+
+.calculator {
+  background-color: hsl(0, 0%, 100%);
+  align-self: end;
+  margin-bottom: 200px;
+  justify-self: start;
+  border-top: 5px solid hsl(212, 86%, 64%);
+  box-shadow: 0 10px 10px hsl(205, 33%, 93%);
+  border-radius: 5px;
+  position: relative;
+}
+.calc {
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+}
+
+.karma {
+  background-color: hsl(0, 0%, 100%);
+  grid-column: 2/3;
+  grid-row: 2/0.5;
+  margin-top: -300px;
+  border-top: 5px solid hsl(34, 97%, 64%);
+  box-shadow: 0 10px 10px hsl(205, 33%, 93%);
+  border-radius: 5px;
+  position: relative;
+}
+.bulb {
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+}
+.para {
+  font-size: 20px;
+  color: hsl(234, 12%, 34%);
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: left;
+  margin-bottom: 6px;
+  margin-left: 25px;
+}
+
+.paras1 {
+  font-size: 13px;
+  text-align: left;
+  margin-left: 25px;
+}
