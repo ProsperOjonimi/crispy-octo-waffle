@@ -1,0 +1,336 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.container {
+  display: grid;
+  grid-template-columns: 700px 1fr;
+}
+.chat-design {
+  height: 700px;
+  display: flex;
+}
+.chat-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 130px;
+  margin-top: 310px;
+  color: hsl(270, 7%, 64%);
+}
+h1 {
+  margin-bottom: 15px;
+  font-size: 35px;
+  color: hsl(271, 36%, 24%);
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: hsl(270, 7%, 64%);
+}
+.color-design {
+  background: linear-gradient(
+    50deg,
+    hsl(264, 100%, 61%) 20%,
+    hsl(293, 100%, 63%)
+  );
+  height: 750px;
+  width: 500px;
+  border-bottom-left-radius: 220px;
+  border-bottom-right-radius: 250px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+.chat-proper {
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 2px 2px 30px lch(28.85% 0 296.81 / 0.267);
+  width: 280px;
+  height: 590px;
+  margin-left: -50px;
+  border-radius: 30px;
+  margin-top: 120px;
+  position: relative;
+}
+.chat-border {
+  width: 247px;
+  height: 560px;
+  /* border: 2px solid black; */
+  position: absolute;
+  right: 20px;
+  bottom: 17px;
+  left: 10px;
+  border-radius: 28px;
+  background-color: hsl(270, 20%, 96%);
+}
+.top-line {
+  margin-top: 40px;
+}
+.curve {
+  width: 135px;
+  height: 20px;
+  margin-left: 60px;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 19px;
+  border-bottom-right-radius: 19px;
+  background-color: white;
+}
+.fill-area {
+  border-radius: 28px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background: linear-gradient(
+    50deg,
+    hsl(264, 100%, 61%) 20%,
+    hsl(293, 100%, 63%)
+  );
+  box-sizing: border-box;
+  height: 90px;
+}
+.left-col {
+  width: 130px;
+  height: 90px;
+  background-color: hsl(270, 20%, 96%);
+  margin-top: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.message-one {
+  width: 130px;
+  height: 40px;
+  margin-left: 10px;
+  background-color: hsl(270, 32%, 93%);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 0px;
+}
+.message-two {
+  width: 130px;
+  height: 40px;
+  margin-left: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 0px;
+  background-color: hsl(270, 32%, 93%);
+}
+.right-col {
+  width: 196px;
+  height: 90px;
+  margin-left: 29px;
+  margin-top: 20px;
+}
+.images {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: -10px;
+}
+.dog-one {
+  margin-right: 5px;
+}
+.dog-three {
+  margin-left: 5px;
+}
+img {
+  border-radius: 10px;
+}
+.text-one {
+  width: 130px;
+  height: 40px;
+  box-shadow: 0px 0px 120px lch(28.85% 0 296.81 / 0.267);
+  background-color: hsl(0, 0%, 100%);
+  margin-top: 10px;
+  margin-left: 75px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 10px;
+  padding-top: 5px;
+}
+.text-two {
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0px 0px 120px lch(28.85% 0 296.81 / 0.267);
+  width: 100px;
+  height: 25px;
+  margin-left: 105px;
+  margin-top: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 10px;
+  padding-top: 6px;
+}
+.text-three {
+  background-color: hsl(270, 32%, 93%);
+  width: 130px;
+  height: 50px;
+  margin-left: -15px;
+  margin-top: 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 0px;
+  padding-top: 4px;
+}
+.poll-one {
+  width: 160px;
+  height: 40px;
+  background: linear-gradient(
+    50deg,
+    hsl(293, 100%, 63%) 20%,
+    hsl(264, 100%, 61%)
+  );
+  margin-left: -15px;
+  margin-top: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 0px;
+  padding-top: 13px;
+  display: flex;
+}
+
+.poll-two {
+  width: 160px;
+  height: 40px;
+  background: linear-gradient(
+    50deg,
+    hsl(293, 100%, 63%) 20%,
+    hsl(264, 100%, 61%)
+  );
+  margin-left: -15px;
+  margin-top: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 0px;
+  display: flex;
+  padding-top: 13px;
+}
+.text-area {
+  height: 42px;
+  width: 225px;
+  background-color: white;
+  margin-left: -15px;
+  margin-top: 13px;
+  border-radius: 20px;
+  padding-top: 18px;
+
+  padding-left: 30px;
+  color: hsl(206, 6%, 79%);
+  font-size: 12px;
+  position: relative;
+}
+.header-content {
+  height: 60px;
+  display: flex;
+  margin-left: 10px;
+}
+.profile-pic {
+  border-radius: 30px;
+  border: 2px solid white;
+  margin-right: 20px;
+  margin-left: 30px;
+  margin-top: 19px;
+}
+li {
+  list-style-type: none;
+}
+.name {
+  margin-top: 19px;
+}
+.worker-name {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+.worker-job {
+  color: white;
+  font-size: 13px;
+  color: hsl(276, 100%, 81%);
+}
+.symbol {
+  color: white;
+}
+.first-message {
+  font-size: 9px;
+  margin-left: 10px;
+  margin-top: 7px;
+  color: hsl(276, 55%, 52%);
+}
+.second-message {
+  font-size: 9px;
+  margin-left: 8px;
+  margin-top: 5px;
+  color: hsl(276, 55%, 52%);
+}
+.third-message {
+  font-size: 9px;
+  color: hsl(271, 15%, 43%);
+  margin-left: 5px;
+}
+.fourth-message {
+  font-size: 9px;
+  color: hsl(271, 15%, 43%);
+  margin-left: 12px;
+}
+.fifth-message {
+  font-size: 9px;
+  color: hsl(276, 55%, 52%);
+  margin-left: 5px;
+}
+.fa-solid {
+  color: white;
+  margin-top: 32px;
+  margin-right: -20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.submit {
+  width: 22px;
+  height: 22px;
+  background-color: hsl(271, 36%, 24%);
+  border-radius: 30px;
+  position: absolute;
+
+  right: 15px;
+  top: 13px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 1000;
+  color: white;
+}
+.poll-onetext {
+  color: white;
+  font-size: 9px;
+  margin-left: 10px;
+}
+.price {
+  margin-left: 30px;
+  font-size: 13px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.circle {
+  width: 15px;
+  height: 15px;
+  border: 2px solid hsl(289, 100%, 72%);
+  border-radius: 30px;
+  margin-left: 10px;
+}
+.price-two {
+  margin-left: 30px;
+  font-size: 13px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-left: 49px;
+}
